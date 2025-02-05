@@ -11,5 +11,5 @@ High Level Design (user flow)
 
 <h2>
 Low Level Design (user flow)
-<image src="images/lld.pdf"/>
+<image src="images/lld.png"/>
 </h2>
