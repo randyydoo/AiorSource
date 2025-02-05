@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+
+  color-scheme: light dark;
+  color: rgba(242, 242, 242, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  border-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Transparent track */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #565252; /* Set color of the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+.padding{
+  padding-top: 12%;
+  height: 100%;
+}
+.textBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.centerColumn {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-start; /* Start items from the top */
+  padding-top: 0; /* Remove padding to ensure it starts at the very top */
+  width: 100%;
+  gap: 200px;
+}
+
+.textButton{
+  width: 400px;
+  height: 450px; 
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 20px;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #454545;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  outline: none;
+
+}
+.directions{
+  font-size: 15px;
+}
+
+.scoreButton{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1em 2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #10A37F;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #10A37F;
+}
+
+button:focus{
+  outline: none;
+}
+
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
